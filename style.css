@@ -38,3 +38,20 @@
     bottom: 15px;
     border: 3px solid #f9c922;
 }
+
+/* change border to transparent and set only border-top to a solid color */
+#loader {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    border-top-color: #3498db;
+}
+#loader:before {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    border-top-color: #e74c3c;
+}
+#loader:after {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    border-top-color: #f9c922;
+}
